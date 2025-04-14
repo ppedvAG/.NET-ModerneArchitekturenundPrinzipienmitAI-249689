@@ -3,7 +3,7 @@ Kurs Repository zu Kurs .NET - Moderne Architekturen und Designprinzipien der pp
 
 ## M002 | Clean Architecture
 
-- Template Project
+- Todo List Project
 
 ## M003 | Design Patterns
 

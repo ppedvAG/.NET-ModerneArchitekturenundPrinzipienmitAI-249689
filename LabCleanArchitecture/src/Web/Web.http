@@ -1,0 +1,139 @@
+﻿# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@Web_HostAddress = https://localhost:5001
+
+@Email=administrator@localhost
+@Password=Administrator1!
+@BearerToken=CfDJ8I9DC4U_kCBAh03ueGMJcv3wMJTurlmvJW8i0F8uF5KTPatuu-NvO8hitaf0bWi0B77p5-XCNWxauxruoNNwGD5COOiqjQBlVLkksdwfPk0HQBXtA2IycSRYtj8kg68GtUTIX-9m5UTawVs8D9IX00ZqpFLlVldIxRDaS5daBAhQFkKXZdJJFWfYmLc4ITd-2umqsh5bX0W-O0LBN84YsLo3uoM2zU_o6xBUH18QiBUnW8eG-GfoIyLcOGMQXnAB4REm973garS80g-QRypZP-M17GuXK09Q1pw-9mCQMV1WMGc5oCEIeX7ibvSP6cccbNsq5S9PuA3kTWF4Em2VfB58tkNaVH_mfSRv7qtEiwzGFC4x85iGlYr0LOQmbNcp78N327ui1h1-rHhAmUKcMLWL8J-1uOolpbeifwsK2tkmCx5noY0d6R5FWDf1qprsOIVXXV2YX15gcKYvlxzsJ_EJE6-8fj_aZ5o2J6qNI3NUrEvyLoShUv3tYuLjjiRyxY3Dj5D1II0wy53ASIzIoRO32p_c5LfHLSKuuxmGOnNHfrohp3Mj5UwbRpCW3W4sNo1vqKD3ZwDypbrYbq-gr5Si-RMqtmYRRo5-EMzWnFY7dj1qIooj6ZIhpounx2AERgZsOzFuJ5RGhgVGETs3RyRdK146VQbnRHM-jj_SQaXFNFBo_gZYKIMhxq6oNAqvBDFMSy-BjPQ08lYFj1qs-QBF0JIRrTSNwI0MTVU0ZJy46-Z_PAiqijJQ20xgs6QCsJzvFstRrIn0LU2WlSyZDct07PnfIEugH-CDb9W6mdTa-GCuvfmqcc8xYUXtWZSSAg
+
+# POST Users Register
+POST {{Web_HostAddress}}/api/Users/Register
+Content-Type: application/json
+
+{
+  "email": "{{Email}}",
+  "password": "{{Password}}"
+}
+
+###
+
+# POST Users Login
+POST {{Web_HostAddress}}/api/Users/Login
+Content-Type: application/json
+
+{
+  "email": "{{Email}}",
+  "password": "{{Password}}"
+}
+
+###
+
+# POST Users Refresh
+POST {{Web_HostAddress}}/api/Users/Refresh
+Authorization: Bearer {{BearerToken}}
+Content-Type: application/json
+
+{
+  "refreshToken": ""
+}
+
+###
+
+# GET WeatherForecast
+GET {{Web_HostAddress}}/api/WeatherForecasts
+Authorization: Bearer {{BearerToken}}
+
+###
+
+# GET TodoLists
+GET {{Web_HostAddress}}/api/TodoLists
+Authorization: Bearer {{BearerToken}}
+
+###
+
+# POST TodoLists
+POST {{Web_HostAddress}}/api/TodoLists
+Authorization: Bearer {{BearerToken}}
+Content-Type: application/json
+
+// CreateTodoListCommand
+{
+  "Title": "Backlog"
+}
+
+###
+
+# PUT TodoLists
+PUT {{Web_HostAddress}}/api/TodoLists/1
+Authorization: Bearer {{BearerToken}}
+Content-Type: application/json
+
+// UpdateTodoListCommand
+{
+  "Id": 1,
+  "Title": "Product Backlog"
+}
+
+###
+
+# DELETE TodoLists
+DELETE {{Web_HostAddress}}/api/TodoLists/1
+Authorization: Bearer {{BearerToken}}
+
+###
+
+# GET TodoItems
+@PageNumber = 1
+@PageSize = 10
+GET {{Web_HostAddress}}/api/TodoItems?ListId=1&PageNumber={{PageNumber}}&PageSize={{PageSize}}
+
+Authorization: Bearer {{BearerToken}}
+
+###
+
+# POST TodoItems
+POST {{Web_HostAddress}}/api/TodoItems
+Authorization: Bearer {{BearerToken}}
+Content-Type: application/json
+
+// CreateTodoItemCommand
+{
+  "ListId": 1,
+  "Title": "Eat a burrito 🌯"
+}
+
+###
+
+#PUT TodoItems UpdateItemDetails
+PUT {{Web_HostAddress}}/api/TodoItems/UpdateItemDetails?Id=1
+Authorization: Bearer {{BearerToken}}
+Content-Type: application/json
+
+// UpdateTodoItemDetailCommand
+{
+  "Id": 1,
+  "ListId": 1,
+  "Priority": 3,
+  "Note": "This is a good idea!"
+}
+
+###
+
+# PUT TodoItems
+PUT {{Web_HostAddress}}/api/TodoItems/1
+Authorization: Bearer {{BearerToken}}
+Content-Type: application/json
+
+// UpdateTodoItemCommand
+{
+  "Id": 1,
+  "Title": "Eat a yummy burrito 🌯",
+  "Done": true
+}
+
+###
+
+# DELETE TodoItem
+DELETE {{Web_HostAddress}}/api/TodoItems/1
+Authorization: Bearer {{BearerToken}}
+
+###
