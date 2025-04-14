@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "LabCleanArchitecture\src\Application\Application.csproj", "{3AC16C63-23D9-4CBF-82D4-092AC45AA145}"
 EndProject
@@ -22,6 +22,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M003_DesignPatterns", "M003_DesignPatterns", "{ECC0470D-A166-4CB6-8F38-430D160B7F01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{F5488409-CA6D-45C4-BDE7-C5293946510C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabDesignPatterns", "LabDesignPatterns\LabDesignPatterns.csproj", "{6DF37FB7-D3ED-4E61-8011-083BACA44F25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{F5488409-CA6D-45C4-BDE7-C5293946510C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5488409-CA6D-45C4-BDE7-C5293946510C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5488409-CA6D-45C4-BDE7-C5293946510C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF37FB7-D3ED-4E61-8011-083BACA44F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF37FB7-D3ED-4E61-8011-083BACA44F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF37FB7-D3ED-4E61-8011-083BACA44F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF37FB7-D3ED-4E61-8011-083BACA44F25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +80,6 @@ Global
 		{0D067019-50BE-43EA-985A-0B7FB3537E37} = {A4E1309B-1D44-4EF4-9E5C-BB505B052147}
 		{5F95FC9F-D2B9-42B7-B0CC-E4C091106235} = {A4E1309B-1D44-4EF4-9E5C-BB505B052147}
 		{F5488409-CA6D-45C4-BDE7-C5293946510C} = {ECC0470D-A166-4CB6-8F38-430D160B7F01}
+		{6DF37FB7-D3ED-4E61-8011-083BACA44F25} = {ECC0470D-A166-4CB6-8F38-430D160B7F01}
 	EndGlobalSection
 EndGlobal
