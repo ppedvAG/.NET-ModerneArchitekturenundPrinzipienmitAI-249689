@@ -50,9 +50,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M007_FinalProject", "M007_FinalProject", "{772206ED-A913-4937-AE83-1FFBA2704E90}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M101_Linq", "M101_Linq", "{A02D3023-D4A0-4F7E-8FAE-F2EACB3B0F00}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\Slides\CS-Fortgeschritten\Labs\Labs-PDFs\M-009-Lab CS-Fortgeschritten Linq Erweiterungsmethoden.pdf = ..\..\Slides\CS-Fortgeschritten\Labs\Labs-PDFs\M-009-Lab CS-Fortgeschritten Linq Erweiterungsmethoden.pdf
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{1672ADEA-2A30-41C8-A499-150B8FF12486}"
 EndProject
