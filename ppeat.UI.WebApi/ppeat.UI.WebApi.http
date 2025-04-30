@@ -1,6 +1,72 @@
-@ppeat.UI.WebApi_HostAddress = http://localhost:5083
+@WebApi_HostAddress = http://localhost:5083
 
-GET {{ppeat.UI.WebApi_HostAddress}}/weatherforecast/
+# CustomersController
+GET {{WebApi_HostAddress}}/api/customers
 Accept: application/json
 
 ###
+
+GET {{WebApi_HostAddress}}/api/customers/550e8400-e29b-41d4-a716-446655440001
+Accept: application/json
+
+###
+POST {{WebApi_HostAddress}}/api/customers
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "New Customer",
+  "email": "newcustomer@example.com"
+}
+
+###
+PUT {{WebApi_HostAddress}}/api/customers/550e8400-e29b-41d4-a716-446655440001
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Updated Customer",
+  "email": "updatedcustomer@example.com"
+}
+
+###
+DELETE {{WebApi_HostAddress}}/api/customers/550e8400-e29b-41d4-a716-446655440001
+Accept: application/json
+
+###
+# RestaurantsController
+
+GET {{WebApi_HostAddress}}/api/restaurants
+Accept: application/json
+
+###
+GET {{WebApi_HostAddress}}/api/restaurants/550e8400-e29b-41d4-a716-446655440003
+Accept: application/json
+
+###
+POST {{WebApi_HostAddress}}/api/restaurants
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "New Restaurant",
+  "location": "New Location",
+  "availableTableCount": 15,
+  "cuisine": "Italian"
+}
+
+###
+PUT {{WebApi_HostAddress}}/api/restaurants/550e8400-e29b-41d4-a716-446655440003
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "Updated Restaurant",
+  "location": "Updated Location",
+  "availableTableCount": 12,
+  "cuisine": "Mexican"
+}
+
+###
+DELETE {{WebApi_HostAddress}}/api/restaurants/550e8400-e29b-41d4-a716-446655440003
+Accept: application/json
