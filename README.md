@@ -60,9 +60,25 @@ dotnet new install Clean.Architecture.Solution.Template
 - [ ] Eigene Geschäftsanwendung entwerfen
 - [ ] Klassendiagramm erstellen mit draw.io
 - [ ] Domänen-modell generieren lassen
+- [ ] DataAccess Projekt in Infrastructure
+  * Microsoft.EntityFrameworkCore.SqlServer
+  * Microsoft.EntityFrameworkCore.Tools
 - [ ] Testdatenbank mit Entity Framework
 - [ ] Testdaten generieren lassen
   * LocalDB verwenden (Kommandozeile: `sqllocaldb create|start|stop|info <instanceName>`)
   * [Testing Strategien gegen Datenbank](https://learn.microsoft.com/de-de/ef/core/testing/)
-- [ ] WebAPI erstellen
+- [ ] WebAPI Projekt in Presentation erstellen
+  * Microsoft.EntityFrameworkCore.Design
+  * Design ist notwendig um das Migrationsskript zu erstellen
+
+```bash
+// Package Manager Console aufrufen
+// Default project: ppeat.DataAccess
+// Startprojekt: ppeat.UI.WebApi
+
+Add-Migration InitPpeatDbData 
+
+Update-Database
+
+```
 - [ ] Weitere Front-Ends erstellen
