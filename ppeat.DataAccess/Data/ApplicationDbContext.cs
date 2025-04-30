@@ -10,7 +10,7 @@ namespace ppeat.DataAccess.Data
     {
         public DbSet<Restaurant> Restaurants { get; set; }
 
-        public DbSet<Restaurant> Comments { get; set; }
+        public DbSet<Comment> Comments { get; set; }
 
         public DbSet<Reservation> Reservations { get; set; }
 

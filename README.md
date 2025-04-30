@@ -62,5 +62,7 @@ dotnet new install Clean.Architecture.Solution.Template
 - [ ] Domänen-modell generieren lassen
 - [ ] Testdatenbank mit Entity Framework
 - [ ] Testdaten generieren lassen
+  * LocalDB verwenden (Kommandozeile: `sqllocaldb create|start|stop|info <instanceName>`)
+  * [Testing Strategien gegen Datenbank](https://learn.microsoft.com/de-de/ef/core/testing/)
 - [ ] WebAPI erstellen
 - [ ] Weitere Front-Ends erstellen
