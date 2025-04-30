@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ppeat.BusinessCore.Contracts;
 using ppeat.DataAccess.Data;
 using ppeat.Domain.Models;
 
@@ -15,10 +16,12 @@ namespace ppeat.UI.WebApi.Controllers
     public class CustomersController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly ICustomerService _customerService;
 
-        public CustomersController(ApplicationDbContext context)
+        public CustomersController(ApplicationDbContext context, ICustomerService customerService)
         {
             _context = context;
+            _customerService = customerService; // TODO Methoden gegen diesen Service implementieren
         }
 
         // GET: api/Customers

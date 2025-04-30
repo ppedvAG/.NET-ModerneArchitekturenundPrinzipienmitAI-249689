@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ppeat.BusinessCore.Contracts;
 using ppeat.DataAccess.Data;
 using ppeat.Domain.Models;
 
@@ -10,10 +11,12 @@ namespace ppeat.UI.WebApi.Controllers
     public class RestaurantsController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private readonly IRestaurantService _restaurantService;
 
-        public RestaurantsController(ApplicationDbContext context)
+        public RestaurantsController(ApplicationDbContext context, IRestaurantService restaurantService)
         {
             _context = context;
+            _restaurantService = restaurantService; // TODO Methoden gegen diesen Service implementieren
         }
 
         // GET: api/Restaurants

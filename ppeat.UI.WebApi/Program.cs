@@ -1,4 +1,6 @@
 ﻿
+using ppeat.BusinessCore.Contracts;
+using ppeat.BusinessCore.Services;
 using ppeat.DataAccess.Data;
 
 namespace ppeat.UI.WebApi
@@ -14,6 +16,10 @@ namespace ppeat.UI.WebApi
             builder.Services.AddSqlServer<ApplicationDbContext>(connectionString);
 
             // Add services to the container.
+            builder.Services.AddTransient<ICustomerService, CustomerService>();
+            builder.Services.AddTransient<IRestaurantService, RestaurantService>();
+            builder.Services.AddTransient<IFileService, RemoteFileService>();
+            builder.Services.AddHttpClient();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ppeat.DataAccess\ppeat.DataAccess.csproj" />
     <ProjectReference Include="..\ppeat.Domain\ppeat.Domain.csproj" />
   </ItemGroup>

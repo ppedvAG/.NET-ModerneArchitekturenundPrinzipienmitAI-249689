@@ -11,4 +11,6 @@ public class Restaurant : Entity
     public Cuisine Cuisine { get; set; }
     public ICollection<Reservation> Reservations { get; set; }
     public ICollection<Comment> Comments { get; set; }
+    public string? ImageUrl { get; set; }
+    public bool IsClosed { get; set; }
 }
