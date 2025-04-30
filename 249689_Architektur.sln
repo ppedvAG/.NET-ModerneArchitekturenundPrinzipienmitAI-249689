@@ -3,49 +3,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "LabCleanArchitecture\src\Application\Application.csproj", "{3AC16C63-23D9-4CBF-82D4-092AC45AA145}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "LabCleanArchitecture\src\Application\Application.csproj", "{3AC16C63-23D9-4CBF-82D4-092AC45AA145}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "LabCleanArchitecture\src\Domain\Domain.csproj", "{482D2ECF-8B6B-49FB-A1EA-82B7A93EE070}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "LabCleanArchitecture\src\Domain\Domain.csproj", "{482D2ECF-8B6B-49FB-A1EA-82B7A93EE070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "LabCleanArchitecture\src\Infrastructure\Infrastructure.csproj", "{8B8FA528-B550-4BBE-AB94-6198B120F866}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "LabCleanArchitecture\src\Infrastructure\Infrastructure.csproj", "{8B8FA528-B550-4BBE-AB94-6198B120F866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "LabCleanArchitecture\src\Web\Web.csproj", "{B9741E8C-4E9A-44ED-91AA-A1BF56AFE3E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "LabCleanArchitecture\src\Web\Web.csproj", "{B9741E8C-4E9A-44ED-91AA-A1BF56AFE3E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.UnitTests", "LabCleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj", "{3FB6CB63-9277-4EAE-908D-18B72B99A989}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.UnitTests", "LabCleanArchitecture\tests\Application.UnitTests\Application.UnitTests.csproj", "{3FB6CB63-9277-4EAE-908D-18B72B99A989}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.UnitTests", "LabCleanArchitecture\tests\Domain.UnitTests\Domain.UnitTests.csproj", "{0D067019-50BE-43EA-985A-0B7FB3537E37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.UnitTests", "LabCleanArchitecture\tests\Domain.UnitTests\Domain.UnitTests.csproj", "{0D067019-50BE-43EA-985A-0B7FB3537E37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.IntegrationTests", "LabCleanArchitecture\tests\Infrastructure.IntegrationTests\Infrastructure.IntegrationTests.csproj", "{5F95FC9F-D2B9-42B7-B0CC-E4C091106235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.IntegrationTests", "LabCleanArchitecture\tests\Infrastructure.IntegrationTests\Infrastructure.IntegrationTests.csproj", "{5F95FC9F-D2B9-42B7-B0CC-E4C091106235}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M002_CleanArchitecture", "M002_CleanArchitecture", "{A4E1309B-1D44-4EF4-9E5C-BB505B052147}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M003_DesignPatterns", "M003_DesignPatterns", "{ECC0470D-A166-4CB6-8F38-430D160B7F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{F5488409-CA6D-45C4-BDE7-C5293946510C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns\DesignPatterns.csproj", "{F5488409-CA6D-45C4-BDE7-C5293946510C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabDesignPatterns", "LabDesignPatterns\LabDesignPatterns.csproj", "{6DF37FB7-D3ED-4E61-8011-083BACA44F25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabDesignPatterns", "LabDesignPatterns\LabDesignPatterns.csproj", "{6DF37FB7-D3ED-4E61-8011-083BACA44F25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M004_Solid", "M004_Solid", "{DF11F483-490B-4A2A-A19A-AB987B02BA8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid", "Solid\Solid.csproj", "{3AC6E1B9-8482-4A34-8775-3019D665AC19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid", "Solid\Solid.csproj", "{3AC6E1B9-8482-4A34-8775-3019D665AC19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M005_EventSourcing", "M005_EventSourcing", "{2E244004-98CC-47BF-8D42-4A064D78BBFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSourcing", "EventSourcing\EventSourcing.csproj", "{22789001-001E-4375-B8F4-F6FB51830A74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventSourcing", "EventSourcing\EventSourcing.csproj", "{22789001-001E-4375-B8F4-F6FB51830A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabEventSourcing", "LabEventSourcing\LabEventSourcing.csproj", "{B47A88F4-4F1B-4FB2-9059-975FA5540D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabEventSourcing", "LabEventSourcing\LabEventSourcing.csproj", "{B47A88F4-4F1B-4FB2-9059-975FA5540D15}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M006_CQRS", "M006_CQRS", "{30E59BD6-D3EC-4A03-909D-D34A01280529}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.WebApi", "Order.WebApi\OrderService.WebApi.csproj", "{162890A0-E87D-4B71-9F5E-24DDEF317785}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderService.WebApi", "Order.WebApi\OrderService.WebApi.csproj", "{162890A0-E87D-4B71-9F5E-24DDEF317785}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabBankAccount.WebApi", "LabBankAccount.WebApi\LabBankAccount.WebApi.csproj", "{181EE549-3071-4D0D-BDF1-48D161D4EBDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabBankAccount.WebApi", "LabBankAccount.WebApi\LabBankAccount.WebApi.csproj", "{181EE549-3071-4D0D-BDF1-48D161D4EBDF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M100_DependencyInjection", "M100_DependencyInjection", "{32A8116A-68F6-40C5-83F2-8875289AAC62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{989FE94A-8C52-441F-B5D9-1DF289891353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{989FE94A-8C52-441F-B5D9-1DF289891353}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabDependencyInjection", "LabIoC\LabDependencyInjection.csproj", "{F71AAE71-FFAE-4DD0-9486-5F9947DB1CCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LabDependencyInjection", "LabIoC\LabDependencyInjection.csproj", "{F71AAE71-FFAE-4DD0-9486-5F9947DB1CCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M007_FinalProject", "M007_FinalProject", "{772206ED-A913-4937-AE83-1FFBA2704E90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M101_Linq", "M101_Linq", "{A02D3023-D4A0-4F7E-8FAE-F2EACB3B0F00}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Slides\CS-Fortgeschritten\Labs\Labs-PDFs\M-009-Lab CS-Fortgeschritten Linq Erweiterungsmethoden.pdf = ..\..\Slides\CS-Fortgeschritten\Labs\Labs-PDFs\M-009-Lab CS-Fortgeschritten Linq Erweiterungsmethoden.pdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{1672ADEA-2A30-41C8-A499-150B8FF12486}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +126,10 @@ Global
 		{F71AAE71-FFAE-4DD0-9486-5F9947DB1CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F71AAE71-FFAE-4DD0-9486-5F9947DB1CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F71AAE71-FFAE-4DD0-9486-5F9947DB1CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1672ADEA-2A30-41C8-A499-150B8FF12486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1672ADEA-2A30-41C8-A499-150B8FF12486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1672ADEA-2A30-41C8-A499-150B8FF12486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1672ADEA-2A30-41C8-A499-150B8FF12486}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,5 +151,9 @@ Global
 		{181EE549-3071-4D0D-BDF1-48D161D4EBDF} = {30E59BD6-D3EC-4A03-909D-D34A01280529}
 		{989FE94A-8C52-441F-B5D9-1DF289891353} = {32A8116A-68F6-40C5-83F2-8875289AAC62}
 		{F71AAE71-FFAE-4DD0-9486-5F9947DB1CCE} = {32A8116A-68F6-40C5-83F2-8875289AAC62}
+		{1672ADEA-2A30-41C8-A499-150B8FF12486} = {A02D3023-D4A0-4F7E-8FAE-F2EACB3B0F00}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C30BBF90-2FF5-42C7-9401-04B2CD7E0427}
 	EndGlobalSection
 EndGlobal
