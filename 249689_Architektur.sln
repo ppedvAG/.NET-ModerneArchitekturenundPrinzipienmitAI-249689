@@ -53,6 +53,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M101_Linq", "M101_Linq", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{1672ADEA-2A30-41C8-A499-150B8FF12486}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabPersonen", "LabPersonen\LabPersonen.csproj", "{DDFADD9A-BA3E-468D-B4F5-578E6AD70FAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{1672ADEA-2A30-41C8-A499-150B8FF12486}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1672ADEA-2A30-41C8-A499-150B8FF12486}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1672ADEA-2A30-41C8-A499-150B8FF12486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDFADD9A-BA3E-468D-B4F5-578E6AD70FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDFADD9A-BA3E-468D-B4F5-578E6AD70FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDFADD9A-BA3E-468D-B4F5-578E6AD70FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDFADD9A-BA3E-468D-B4F5-578E6AD70FAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{989FE94A-8C52-441F-B5D9-1DF289891353} = {32A8116A-68F6-40C5-83F2-8875289AAC62}
 		{F71AAE71-FFAE-4DD0-9486-5F9947DB1CCE} = {32A8116A-68F6-40C5-83F2-8875289AAC62}
 		{1672ADEA-2A30-41C8-A499-150B8FF12486} = {A02D3023-D4A0-4F7E-8FAE-F2EACB3B0F00}
+		{DDFADD9A-BA3E-468D-B4F5-578E6AD70FAF} = {A02D3023-D4A0-4F7E-8FAE-F2EACB3B0F00}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C30BBF90-2FF5-42C7-9401-04B2CD7E0427}
